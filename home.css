@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+}
+main{
+    background-color: black;
+    color: white;
 }
 .navbar{
     display: flex;
@@ -25,7 +30,7 @@ text-decoration: none;
 .navlinks a li{
     margin: 6px;
     height: 60px;
-    padding: 16px;
+    padding: 18px;
     transition: 0.3s ease-in;
     cursor: pointer;
     color: white;
@@ -37,11 +42,178 @@ background-color: white;
 opacity: 0.7;
     color:black ;
 }
-
 #logo h3{
     padding: 16px;
     font-family: poppins;
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 0.3in;
+}
+.fa-brands{
+    padding: 18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-solid{
+    padding: 18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    transition: 0.3s ease-in;
+   color: white;
+   opacity: 0.7;
+}
+
+.fa-solid:hover{
+    transition: 0.3s ease-in;
+    color: white;
+    opacity: 0.7;
+}
+/*main banner sec*/
+#banner-text{
+    font-family: poppins;
+    font-weight: 700;
+    color: yellow;
+}
+#hot-selling-h1{
+    font-family: 'Raleway', sans-serif ;
+}
+.animate__fadeInLeft{
+    animation-duration: 2s;
+}
+.main-img-container{
+    display: flex;
+    cursor: pointer;
+ }
+ .img-container-1 img{
+width: 673px;
+ }
+ .img-container-1 button a{
+    text-decoration: none;
+    color: white;
+ }
+ .img-container-1 button{
+    font-weight: 500;
+    border: none;
+    width: 150px;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: -200px;
+    margin-left: 100px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: poppins;
+ }
+ .img-container-1 button:hover{
+    transition: 0.3s ease-in;
+    color: black;
+    background-color: grey;
+    letter-spacing: 2px;
+    font-weight: 900;
+ }
+ #products-button{
+    width: 15rem;
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+ }
+ #products-button:hover{
+    transition: 0.3s ease-in;
+    color: white;
+    background-color: rgb(26, 24, 24);
+    word-spacing: 3px;
+    font-weight: 800;
+ }
+ #product-card-img{
+    height: 350px;
+ }
+ .card-title{
+    color: black;
+ }
+ .card-text{
+    font-weight: 600;
+    color: black;
+ }
+ /*structo campaign section*/
+ .strutco-campaign-hp {
+    font-family: 'Abel', sans-serif;
+    justify-content: center;
+    text-align: center;
+ }
+ .strutco-campaign-hp h1{
+    font-size: 0.4in;
+    letter-spacing: 3px;
+ }
+ .strutco-campaign-hp p{
+    font-size: 30px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+ }
+ .stm-images{
+    display: flex;
+ }
+ .stm-images img{
+    margin-left: 20px;
+    width: 700px;
+ }
+ .stm-images p{
+    margin-left: 20px;
+    line-height: 40px;
+    font-size: 20px;
+ }
+ .stm-images-1 img{
+margin-left: 640px;
+width: 700px;
+height: 400px;
+position: relative;
+top: -400px;
+ }
+ #structo-icons-h1{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+ }
+ .structo-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ .structo-icons img{
+    height: 400px;
+    width: 300px;
+ }
+ #shop-now-button a{
+text-decoration: none;
+color: white;
+ }
+ #shop-now-button{
+    background: none;
+    border: 2px solid white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    justify-content: center;
+ }
+ #shop-now-button:hover{
+    background-color: grey;
+    font-weight: 400;
+ }
+ .footer2{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.footer2 li{
+    list-style: none;
+    line-height: 40px;
+}
+.footer2 li:hover{
+cursor: pointer;
+font-weight: 700;
+text-decoration: underline;
 }
