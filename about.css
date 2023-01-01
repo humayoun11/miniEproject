@@ -65,11 +65,13 @@ opacity: 0.7;
 }
 .image-section{
 	float: right;
-	width: 40%;
+	width: 40%;	
 }
 .image-section img{
 	width: 100%;
 	height: auto;
+	margin-top: 140px;
+	border-radius: 4px;
 }
 .content-section .title{
 	text-transform: uppercase;
