@@ -305,6 +305,7 @@ font-size: 15px !important;
    display: flex;
    align-items: center;
    padding: 20px;
+   z-index: 1000;
  }
  
  nav {
@@ -794,6 +795,7 @@ font-size: 15px !important;
  
  .account-page{
    padding: 50px;
+   height: 720px;
    background: radial-gradient(#d0b7b7, #9c9090);
     
  }
