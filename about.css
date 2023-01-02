@@ -36,9 +36,11 @@ text-decoration: none;
     font-family: poppins;
 }
 .navlinks li:hover{
-background-color: white;
+/*background-color: white;*/
+/*border-radius: 10px;*/
+border-bottom: 2px solid white;
 opacity: 0.7;
-    color:black ;
+   color: white;
 }
 
 #logo h3{

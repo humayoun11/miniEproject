@@ -35,7 +35,7 @@ text-decoration: none;
 }
 .navlinks a li{
     margin: 6px;
-    height: 60px;
+    height: 52px;
     padding: 18px;
     transition: 0.3s ease-in;
     cursor: pointer;
@@ -44,12 +44,14 @@ text-decoration: none;
     font-family: poppins;
 }
 .navlinks li:hover{
-background-color: white;
+/*background-color: white;*/
+/*border-radius: 10px;*/
+border-bottom: 2px solid white;
 opacity: 0.7;
-    color:black ;
+    color:white;
 }
 #logo h3{
-    padding: 16px;
+    padding: 18px;
     font-family: poppins;
     letter-spacing: 2px;
     font-weight: 700;
@@ -60,9 +62,10 @@ opacity: 0.7;
     padding: 18px;
     font-size: 23px;
     cursor: pointer;
+    
 }
 .fa-solid{
-    padding: 18px;
+    padding: 15px;
     font-size: 23px;
     cursor: pointer;
 }
@@ -268,7 +271,6 @@ color: white;
     font-family: 'Raleway', sans-serif;
     text-align: center;
     justify-content: center;
-    margin-left: 60px;
  }
  #shop-now-button:hover{
     background-color: grey;
