@@ -10,19 +10,25 @@
    box-sizing: border-box;
    /* background-color: black; */
 }
+.margintop {
+   margin-top: 90px!important;
+}
 main{
     background-color: black;
     color: white;
     width: 99.2%;
 }
 /*------------------------------------------ navbar section---------------------------*/
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    font-size: 15px !important;
+    width: 99%;
+    height: 70px;
     background-color: black;
     color: white;
-    position: fixed;
+    position: fixed !important;
+    z-index: 1000;
 }
 .navlinks{
     display: flex;
@@ -99,7 +105,7 @@ opacity: 0.7;
     justify-content: space-evenly;
  }
  .img-container-1 img{
-width: 673px;
+width: 550px;
  }
  .img-container-1 button a{
     text-decoration: none;
@@ -200,7 +206,7 @@ width: 673px;
  }
  .stm1-description img{
    border-radius: 3px;
-   width: 800px;
+   width: 639px;
    height: 370px;
  }
  .stm-1 img{
@@ -267,6 +273,7 @@ color: white;
     border: 2px solid white;
     width: 120px;
     height: 40px;
+    margin-left: 545px;
     border-radius: 10px;
     font-family: 'Raleway', sans-serif;
     text-align: center;
