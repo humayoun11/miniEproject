@@ -805,6 +805,7 @@ font-size: 15px !important;
    /* margin: auto; */
    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
    overflow: hidden;
+   border-radius: 25px;
  }
  .form-container span{
    font-weight: bold;
