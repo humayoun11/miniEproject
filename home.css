@@ -16,7 +16,7 @@
 main{
     background-color: black;
     color: white;
-    width: 99.2%;
+    width: 99%;
 }
 /*------------------------------------------ navbar section---------------------------*/
 .navbar {
@@ -206,7 +206,7 @@ width: 550px;
  }
  .stm1-description img{
    border-radius: 3px;
-   width: 639px;
+   width: 840px;
    height: 370px;
  }
  .stm-1 img{

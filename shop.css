@@ -21,7 +21,7 @@ main{
     height: 66px;
     background-color: black;
     color: white;
-    position: fixed;
+    position: fixed !important;
 }
 .navlinks{
     display: flex;
@@ -354,9 +354,11 @@ font-size: 15px !important;
  }
  
  .col-2 img {
-  max-width: 96%;
-  padding: 50px;
+  max-width: 58%;
+  padding: 49px;
   margin-top: 5px;
+  margin-left: 300px;
+  border-radius: 75px !important;
 }
  
  .col-2 h1 {
