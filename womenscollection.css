@@ -18,6 +18,12 @@
     z-index: 1000;
     margin-top: -20px;
 }
+.heading {
+    color: white !important;
+    padding-top: 78px;
+    margin-left: 650px;
+}
+
 .navlinks{
     display: flex;
 }
