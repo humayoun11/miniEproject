@@ -91,6 +91,11 @@ body{
 .productsection del{
     color: white;
 }
+.heading {
+    color: white !important;
+    padding-top: 78px;
+    margin-left: -115px;
+}
 .productsection button{
     margin-left: 10px;
     background: orange;
