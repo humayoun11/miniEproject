@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Poppins:ital,wght@0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 
 * {
    margin: 0px;
@@ -156,5 +158,34 @@ opacity: 0.7;
 .content-section .text-center{
     font-size: 5px;
 	background-color: #ddd !important;
+	margin-top: 50px !important;
 }
 
+
+/*------------------------------------------ navbar section icons---------------------------*/
+.fa-brands{
+    padding: 18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-solid{
+    padding: 18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    transition: 0.3s ease-in;
+   color: white;
+   opacity: 0.7;
+}
+
+.fa-solid:hover{
+    transition: 0.3s ease-in;
+    color: white;
+    opacity: 0.7;
+}
+
+/* .footer{
+	margin-top: 540px !important;
+    margin-left: 735px !important;
+} */

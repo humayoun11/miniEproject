@@ -93,7 +93,7 @@ body{
 }
 
 .left{
-	background: url("bg.jpg") no-repeat center;
+	background: url("coat2.jpg") no-repeat center;
 	background-size: cover;
 	height: 100%;
 }
@@ -167,4 +167,30 @@ textarea{
 	.left{
 		height: 200px;
 	}
+}
+
+
+
+
+/*------------------------------------------ navbar section icons---------------------------*/
+.fa-brands{
+    padding: 18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-solid{
+    padding: 18px;
+    font-size: 23px;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    transition: 0.3s ease-in;
+   color: white;
+   opacity: 0.7;
+}
+
+.fa-solid:hover{
+    transition: 0.3s ease-in;
+    color: white;
+    opacity: 0.7;
 }
