@@ -36,6 +36,6 @@ function login() {
     window.location.href = 'userpage.html'
     document.getElementById('showuser').innerHTML = localUser
   } else {
-    alert('kindly please correct your credentials')
+    alert('kindly pleasee correct your credentials')
   }
 }
