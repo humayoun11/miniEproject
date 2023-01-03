@@ -34,10 +34,10 @@
         </a>
       </ul>
       <!--------------------navbar icons------------------------------------------------->
-<i class="fa-brands fa-instagram"></i>
+<!-- <i class="fa-brands fa-instagram"></i>
 <i class="fa-brands fa-square-facebook"></i>
 <i class="fa-solid fa-phone"></i>
-<i class="fa-brands fa-whatsapp"></i>
+<i class="fa-brands fa-whatsapp"></i> -->
    </div>
       <!-- <i class="fa-brands fa-instagram"></i>
       <i class="fa-brands fa-square-facebook"></i>
@@ -53,23 +53,23 @@
           <div class="col-2">
             <div class="form-container">
               <div class="form-btn">
-                <span onclick="login()">Login</span>
+                <span onclick="loginpage()">Login</span>
                 <span onclick="register()">Register</span>
                 <hr id="Indicator" />
               </div>
 
               <form id="LoginForm">
-                <input type="text" placeholder="Username" />
-                <input type="passward" placeholder="Passward" />
-                <button type="submit" class="btn">Login</button>
+                <input type="text" placeholder="Username" id="Lusername" />
+                <input type="password" placeholder="Passward" id="Lpassword" />
+                <input type="button" class="btn" onclick="login()" value="Login">
                 <a href="">Forgot passward</a>
               </form>
 
               <form id="RegForm">
-                <input type="text" placeholder="Username" />
-                <input type="email" placeholder="Email" />
-                <input type="passward" placeholder="Passward" />
-                <button type="submit" class="btn">Register</button>
+                <input type="text" placeholder="Username" id="username" />
+                <input type="email" placeholder="Email" id="email"/>
+                <input type="password" placeholder="Passward" id="password" />
+                <button type="submit" class="btn" onclick="registration()">Register</button>
               </form>
             </div>
           </div>
@@ -82,20 +82,8 @@
   <!--------Js For Toggle Form------->
 
   <script>
-    var LoginForm = document.getElementById('LoginForm');
-    var RegForm = document.getElementById('RegForm');
-    var Indicator = document.getElementById('Indicator');
-
-    function register() {
-      RegForm.style.transform = 'translateX(0px)';
-      LoginForm.style.transform = 'translateX(0px)';
-      Indicator.style.transform = 'translateX(100px)';
-    }
-    function login() {
-      RegForm.style.transform = 'translateX(300px)';
-      LoginForm.style.transform = 'translateX(300px)';
-      Indicator.style.transform = 'translateX(0px)';
-    }
+    
   </script>
+  <script src="shop.js"></script>
   </body>
 </html>
